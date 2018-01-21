@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\hw\cg\0416305 (2)\include\freeimage.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+d:\hw\cg\0416305 (2)\meshexample\scene.h(342): warning C4018: '<': signed/unsigned 不相符
+d:\hw\cg\0416305 (2)\meshexample\main.cpp(29): warning C4129: '.': 無法辨識的字元逸出序列
+d:\hw\cg\0416305 (2)\meshexample\main.cpp(30): warning C4129: '.': 無法辨識的字元逸出序列
+d:\hw\cg\0416305 (2)\meshexample\main.cpp(40): warning C4129: '.': 無法辨識的字元逸出序列
+  MeshExample.vcxproj -> D:\HW\CG\0416305 (2)\Debug\MeshExample.exe
+  MeshExample.vcxproj -> D:\HW\CG\0416305 (2)\Debug\MeshExample.pdb (Full PDB)
