@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<!-- saved from url=(0101)http://cggmwww.csie.nctu.edu.tw/index.php/11-course/73-assignment-1-phase-1-draw-object-with-lighting -->
+<html lang="en-gb" dir="ltr" slick-uniqueid="3"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	  <!--<base href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/73-assignment-1-phase-1-draw-object-with-lighting">--><base href=".">
+  
+  <meta name="author" content="Course TA 1">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>CGGM Site - Assignment 1 Phase 1: Draw Object with Lighting</title>
+  <link href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/73-assignment-1-phase-1-draw-object-with-lighting" rel="canonical">
+  <link href="http://cggmwww.csie.nctu.edu.tw/templates/jsn-boot-pro-customized/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/modal.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/style.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/bootstrap-responsive.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/bootstrap-extended.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/bootstrap-frontend.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/bootstrap-responsive-frontend.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/system.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/general.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/template.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/blue.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/custom.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jsn_wide.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jsn_mobile.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/custom(1).css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/style(1).css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/skitter.styles.css" type="text/css">
+  <style type="text/css">
+	div.jsn-modulecontainer ul.menu-mainmenu ul,
+	div.jsn-modulecontainer ul.menu-mainmenu ul li {
+		width: 200px;
+	}
+	div.jsn-modulecontainer ul.menu-mainmenu ul ul {
+		margin-left: 199px;
+	}
+	#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul ul {
+		margin-right: 199px;
+		margin-left : auto
+	}
+	div.jsn-modulecontainer ul.menu-sidemenu ul,
+	div.jsn-modulecontainer ul.menu-sidemenu ul li {
+		width: 200px;
+	}
+	div.jsn-modulecontainer ul.menu-sidemenu li ul {
+		right: -200px;
+	}
+	body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu li ul {
+		left: -200px;
+		right: auto;
+	}
+	div.jsn-modulecontainer ul.menu-sidemenu ul ul {
+		margin-left: 199px;
+	}
+.jsn-themeslider-skitter-E0I0m .label_skitter {filter:alpha(opacity=60);opacity: 0.6;}.jsn-themeslider-skitter-E0I0m .label_skitter p.jsn-themeslider-caption-title {font-family: Verdana;
+font-size: 12px;
+font-weight: bold;
+text-align: left;
+color: #E9E9E9;}.jsn-themeslider-skitter-E0I0m .label_skitter p.jsn-themeslider-caption-description {font-family: Arial;
+font-size: 12px;
+font-weight: normal;
+text-align: left;
+color: #AFAFAF;}.jsn-themeslider-skitter-E0I0m .label_skitter a.jsn-themeslider-caption-link {font-family: Verdana;
+font-size: 13px;
+font-weight: bold;
+text-align: right;
+color: #E06614;}.jsn-themeslider-skitter-E0I0m .label_skitter {bottom: 0;}.jsn-themeslider-skitter-E0I0m .info_slide {top: 15px;}.jsn-themeslider-skitter-E0I0m .info_slide_dots {top: 15px;}.jsn-themeslider-skitter-E0I0m {background: none;}
+  </style>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/mootools-core.js.下載" type="text/javascript" style="color: rgb(0, 0, 0);"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery.min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery-noconflict.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery-migrate.min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/core.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/mootools-more.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/modal.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/bootstrap.min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/caption.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/noconflict.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/utils.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jsn_template.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery.min.js(1).下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jsn_is_conflict.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery.easing.1.3.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery.animate-colors-min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/jquery.skitter.js.下載" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+(function($){
+				$('.dropdown-toggle').dropdown();
+				})(jQuery);
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+				JSNTemplate.initTemplate({
+					templatePrefix			: "jsn-boot-pro-customized_",
+					templatePath			: "/templates/jsn-boot-pro-customized",
+					enableRTL				: 0,
+					enableGotopLink			: 1,
+					enableMobile			: 1,
+					enableMobileMenuSticky	: 1,
+					enableDesktopMenuSticky	: 0,
+					responsiveLayout		: ["mobile","wide"]
+				});
+			
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- html5.js and respond.min.js for IE less than 9 -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/plugins/system/jsntplframework/assets/3rd-party/respond/respond.min.js"></script>
+	<![endif]-->
+	</head>
+<body id="jsn-master" class="jsn-textstyle-custom jsn-color-blue jsn-direction-ltr jsn-responsive jsn-mobile jsn-joomla-30  jsn-com-content jsn-view-article jsn-itemid-101 jsn-homepage">
+	<a name="top" id="top"></a>
+		<div id="jsn-page">
+			<div id="jsn-header">
+			<div id="jsn-header-inner1">
+				<div id="jsn-header-inner2">
+					<div id="jsn-header-inner">
+						<div id="jsn-logo" class="pull-left">
+						<a href="http://cggmwww.csie.nctu.edu.tw/index.php" title=""><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/logo.png" alt="" id="jsn-logo-desktop"></a>						</div>
+						<div id="jsn-headerright" class="pull-right">
+													<div id="jsn-pos-top" class="pull-left">
+								<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><form action="http://cggmwww.csie.nctu.edu.tw/index.php" method="post">
+	<div class="search">
+		<label for="mod-search-searchword"></label><input name="searchword" id="mod-search-searchword" maxlength="20" class="inputbox" type="text" size="20" value="Search..." onblur="if (this.value==&#39;&#39;) this.value=&#39;Search...&#39;;" onfocus="if (this.value==&#39;Search...&#39;) this.value=&#39;&#39;;"><input type="image" value="Search" class="button" src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/saved_resource" onclick="this.form.searchword.focus();">	<input type="hidden" name="task" value="search">
+	<input type="hidden" name="option" value="com_search">
+	<input type="hidden" name="Itemid" value="101">
+	</div>
+</form>
+<div class="clearbreak"></div></div></div></div>
+								<div class="clearbreak"></div>
+							</div>
+												</div>
+						<div class="clearbreak"></div>
+					</div>
+
+											<div id="jsn-menu">
+							<div id="jsn-menu-inner">
+															<div id="jsn-pos-mainmenu">
+									<div class="_menu jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><span class="jsn-menu-toggle">Menu</span>
+<ul class=" nav-pills">
+<li class="current active first"><a class="current" href="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/saved_resource">
+	<span>
+		Home	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/award">
+	<span>
+		Award	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/member">
+	<span>
+		Member	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/research">
+	<span>
+		Research	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/project">
+	<span>
+		Project	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/course">
+	<span>
+		Course	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/join-us">
+	<span>
+		Join Us	</span>
+</a></li><li class="last">		<a class="" href="http://cggmwww.cs.nctu.edu.tw/forum" target="_blank">
+			<span>
+			Forum			</span>
+		</a>
+</li></ul><div class="clearbreak"></div></div></div></div>
+								</div>
+																					<div class="clearbreak"></div>
+							</div>
+													</div>
+									</div>
+			</div>
+		</div>
+
+		<div id="jsn-body">
+        			<div id="jsn-promo" class=" row-fluid">
+			                    <div id="jsn-pos-promo" class="span12 order1 ">
+                        <div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><!-- JSN IMAGESHOW FREE 4.8.7 - Theme Slider 1.2.0 --><div class="jsn-container"><div class="jsn-gallery"><div id="jsn-themeslider-skitter-E0I0m"><div style="width: 100%; height: 531.335px;" class="box_skitter jsn-themeslider-gallery jsn-themeslider-skitter-E0I0m">
+<ul style="display: none;"><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/00.jpg" alt="Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling" style="height: 531.335px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling</p><p class="jsn-themeslider-caption-description">Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling<br>EuroGraphics 2008<br></p></div>
+					 </li><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/01.jpg" alt="Volume Based Mesh Segmentation" style="height: 531.335px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Volume Based Mesh Segmentation</p><p class="jsn-themeslider-caption-description">Volume Based Mesh Segmentation<br>Jouranl of Information Science and Engineering, 2012</p></div>
+					 </li><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/02.jpg" alt="Intractive Lighting Design with Hierarchical Light Representation" style="height: 531.335px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Intractive Lighting Design with Hierarchical Light Representation</p><p class="jsn-themeslider-caption-description">Intractive Lighting Design with Hierarchical Light Representation<br>Eurographics Symposium on Rendering, 2013</p></div>
+					 </li><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" alt="Physically-based Cosmetic Rendering" style="height: 531.335px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Physically-based Cosmetic Rendering</p><p class="jsn-themeslider-caption-description">Physically-based Cosmetic Rendering<br>Computer Animation and Virtual Worlds volume 24, 2013</p></div>
+					 </li></ul><input type="hidden" class="cache_skitter_index" value=""><span class="prev_button" style="display: none; opacity: 0;">prev</span><span class="next_button" style="display: none; opacity: 0;">next</span><span class="info_slide" style="left: auto; right: 15px; display: block; opacity: 0;"><span class="image_number" rel="0" id="image_n_1_0" style="background-color: rgb(51, 51, 51); color: rgb(255, 255, 255);">1</span> <span class="image_number image_number_select" rel="1" id="image_n_2_0" style="background-color: rgb(204, 51, 51); color: rgb(255, 255, 255);">2</span> <span class="image_number" rel="2" id="image_n_3_0" style="background-color: rgb(51, 51, 51); color: rgb(255, 255, 255);">3</span> <span class="image_number" rel="3" id="image_n_4_0" style="background-color: rgb(51, 51, 51); color: rgb(255, 255, 255);">4</span> </span><div class="container_skitter" style="width: 1170px; height: 531.335px;"><div class="image"><a href="javascript:void(0);" target="_self"><img class="image_main" src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; display: inline; height: 531.335px;"></a><div class="label_skitter" style="width: 1170px; display: block;"><p class="jsn-themeslider-caption-title">Physically-based Cosmetic Rendering</p><p class="jsn-themeslider-caption-description">Physically-based Cosmetic Rendering<br>Computer Animation and Virtual Worlds volume 24, 2013</p></div></div><div class="box_clone" style="left: 0px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: 0px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 117px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -117px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 234px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -234px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 351px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -351px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 468px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -468px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 585px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -585px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 702px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -702px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 819px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -819px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 936px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -936px; top: 0px; height: 531.335px;"></a></div><div class="box_clone" style="left: 1053px; top: 0px; width: 117px; height: 531.335px; display: block;"><a href="javascript:void(0);" target="_self"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/03.jpg" style="width: 1170px; left: -1053px; top: 0px; height: 531.335px;"></a></div></div><span class="play_pause_button" style="left: 564px; opacity: 0; display: none;">pause</span></div>
+</div><script type="text/javascript">
+						jsnThemeSliderjQuery(function() {
+						jsnThemeSliderjQuery(document).ready(function(){
+							
+							var oldHTML = jsnThemeSliderjQuery('#jsn-themeslider-skitter-E0I0m').html();
+							var options = {"animation":"random","navigation":true,"navShowOnMouseOver":true,"dots":false,"numbers":true,"numbers_align":"right","caption_title_css":"font-family: Verdana;\r\nfont-size: 12px;\r\nfont-weight: bold;\r\ntext-align: left;\r\ncolor: #E9E9E9;","caption_description_css":"font-family: Arial;\r\nfont-size: 12px;\r\nfont-weight: normal;\r\ntext-align: left;\r\ncolor: #AFAFAF;","caption_link_css":"font-family: Verdana;\r\nfont-size: 13px;\r\nfont-weight: bold;\r\ntext-align: right;\r\ncolor: #E06614;","caption_position":"bottom","caption_caption_opacity":"filter:alpha(opacity=60);opacity: 0.6;","interval":20000,"controls":true,"controlShowOnMouseOver":true,"stop_over":true,"auto_play":true,"caption_title_show":true,"caption_description_show":true,"caption_link_show":false,"label":true,"animateNumberActive":{"backgroundColor":"#cc3333","color":"#fff"},"click_action":"no_action","open_link_in":"current_browser","img_transparent_background":true,"skitter_class_id":"jsn-themeslider-skitter-E0I0m"};
+							options.base_height = 500;
+							jsnThemeSliderjQuery('.jsn-themeslider-skitter-E0I0m').skitter(options);
+							jsnThemeSliderjQuery('.jsn-themeslider-skitter-E0I0m .image_main').css("max-width", "");
+							var jsn_E0I0m = jsnThemeSliderjQuery(window).width();
+							var cacheResize;
+							jsnThemeSliderjQuery(window).resize(function (e) {
+								if (jsn_E0I0m != jsnThemeSliderjQuery(window).width())
+								{
+									clearTimeout(cacheResize);
+									cacheResize = "";
+									var oldCacheIndex = jsnThemeSliderjQuery('#jsn-themeslider-skitter-E0I0m .cache_skitter_index').attr('value');
+									jsnThemeSliderjQuery('#jsn-themeslider-skitter-E0I0m').html(oldHTML);
+									
+									jsnThemeSliderjQuery('#jsn-themeslider-skitter-E0I0m .cache_skitter_index').attr('value', oldCacheIndex);
+									var options = {"animation":"random","navigation":true,"navShowOnMouseOver":true,"dots":false,"numbers":true,"numbers_align":"right","caption_title_css":"font-family: Verdana;\r\nfont-size: 12px;\r\nfont-weight: bold;\r\ntext-align: left;\r\ncolor: #E9E9E9;","caption_description_css":"font-family: Arial;\r\nfont-size: 12px;\r\nfont-weight: normal;\r\ntext-align: left;\r\ncolor: #AFAFAF;","caption_link_css":"font-family: Verdana;\r\nfont-size: 13px;\r\nfont-weight: bold;\r\ntext-align: right;\r\ncolor: #E06614;","caption_position":"bottom","caption_caption_opacity":"filter:alpha(opacity=60);opacity: 0.6;","interval":20000,"controls":true,"controlShowOnMouseOver":true,"stop_over":true,"auto_play":true,"caption_title_show":true,"caption_description_show":true,"caption_link_show":false,"label":true,"animateNumberActive":{"backgroundColor":"#cc3333","color":"#fff"},"click_action":"no_action","open_link_in":"current_browser","img_transparent_background":true,"skitter_class_id":"jsn-themeslider-skitter-E0I0m"};
+									options.base_height = 500;
+									cacheResize = setTimeout(function () {
+										jsnThemeSliderjQuery('.jsn-themeslider-skitter-E0I0m').skitter(options);
+										jsnThemeSliderjQuery('.jsn-themeslider-skitter-E0I0m .image_main').css("max-width", "");
+									}, 500);
+									jsn_E0I0m = jsnThemeSliderjQuery(window).width();
+								}
+							});
+						})});
+				</script><div class="jsn-themeslider-seocontent">
+<div><p>Publication</p><p>Our Publications</p><ul><li><p>Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling</p><p>Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling<br>EuroGraphics 2008<br></p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/00.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/00.jpg</a></p></li><li><p>Volume Based Mesh Segmentation</p><p>Volume Based Mesh Segmentation<br>Jouranl of Information Science and Engineering, 2012</p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/01.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/01.jpg</a></p></li><li><p>Intractive Lighting Design with Hierarchical Light Representation</p><p>Intractive Lighting Design with Hierarchical Light Representation<br>Eurographics Symposium on Rendering, 2013</p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/02.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/02.jpg</a></p></li><li><p>Physically-based Cosmetic Rendering</p><p>Physically-based Cosmetic Rendering<br>Computer Animation and Virtual Worlds volume 24, 2013</p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/03.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/03.jpg</a></p></li></ul></div></div>
+</div></div><div class="clearbreak"></div></div></div></div></div></div>
+                    </div>
+								<div class="clearbreak"></div>
+				</div>
+							<div id="jsn-content" class="">
+				<div id="jsn-content_inner"><div id="jsn-content_inner1"><div id="jsn-content_inner2"><div id="jsn-content_inner3"><div id="jsn-content_inner4"><div id="jsn-content_inner5"><div id="jsn-content_inner6"><div id="jsn-content_inner7" class="row-fluid">
+							<div id="jsn-maincontent" class="span12 order1 "><div id="jsn-maincontent_inner" class="row-fluid">
+								<div id="jsn-centercol" class="span12 order1 ">
+							<div id="jsn-centercol_inner">
+								<div id="jsn-centercol_inner1">
+										<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
+											<div id="jsn-mainbody">
+										<div id="system-message-container">
+	</div>
+
+										<div class="item-page">
+	
+		<div class="page-header">
+		<h2>
+															<a href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/73-assignment-1-phase-1-draw-object-with-lighting"> Assignment 1 Phase 1: Draw Object with Lighting</a>
+									</h2>
+				</div>
+		<div class="jsn-article-toolbar">
+							<div class="clearfix"></div>
+	</div>
+		
+								<p>&nbsp;</p>
+<h4><strong><span style="font-size: 18pt;">Program Description</span></strong></h4>
+<hr>
+<h4>&nbsp;</h4>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;">You are required to implement an OpenGL program that can read object files and display 3D models correctly on the screen.</span><br><span style="font-size: 12pt;">You also need to implement keyboard and mouse motion functions to control the camera.<br><br></span></p>
+<h4><span style="font-size: 18pt;"><strong>Due Day</strong></span></h4>
+<hr>
+<h4>&nbsp;</h4>
+<p style="margin-left: 30px;"><strong><span style="font-size: 12pt; color: #ff0000;">2017/11/20 23:59</span></strong><br><span style="font-size: 12pt;">Please upload your entire files as a zip file to e3.</span></p>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;">Please upload entire solution, project, source code, and objects!</span><br><span style="font-size: 12pt;">And please use your school id as your file name.</span><br><span style="font-size: 12pt; color: #ff0000;">For example: 9655862V1.zip</span></p>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;">Since you can't delete the uploaded files, you can just upload a new one.<br><br></span></p>
+<h4><strong><span style="font-size: 18pt;">Requirement</span></strong></h4>
+<hr>
+<h4>&nbsp;</h4>
+<p style="margin-left: 30px;"><span style="font-size: 18pt;"></span><span style="font-size: 12pt;">The</span><span style="font-size: 12pt; color: #ff0000;"> object files, material files, viewing files, light files, and scene files</span> <span style="font-size: 12pt;">would be given.</span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="font-size: 12pt; color: #ff0000;">Object files (*.obj) :&nbsp;</span><span style="font-size: 12pt;">describe the coordinate of the vertices and the normal vectors of a 3D model.</span></li>
+<li><span style="font-size: 12pt;"></span><span style="font-size: 12pt; color: #ff0000;">Material files (*.mtl) :&nbsp;</span><span style="font-size: 12pt;">describe the material attribution of the 3D model.</span></li>
+<li><span style="font-size: 12pt;"></span><span style="font-size: 12pt; color: #ff0000;">Viewing files (*.view) :&nbsp;</span><span style="font-size: 12pt;">describe the camera, the view frustum and viewport.</span></li>
+<li><span style="font-size: 12pt;"></span><span style="font-size: 12pt; color: #ff0000;">Light files (*.light) :&nbsp;</span><span style="font-size: 12pt;">describe the lights and the ambient color.</span></li>
+<li><span style="font-size: 12pt;"></span><span style="font-size: 12pt; color: #ff0000;">Scene files (*.scene) :&nbsp;</span><span style="font-size: 12pt;">a list of 3D models, also describe the translation vector of each model.</span></li>
+</ul>
+</li>
+</ul>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;">The source code of object file loader is already given. You can use it to read the object and material files.</span><br><span style="font-size: 12pt;">You need implement the scene, view, and light file loader.<br>You need to use OpenGL functions to setup&nbsp;</span><span style="color: #ff0000; font-size: 12pt;">the camera, view frustum, light source, vertex coordinate, normal, and material.<br></span><span style="font-size: 12pt;">Then display the model correctly on the screen. All information you need is described in the files above.<br></span><span style="font-size: 12pt; color: #ff0000;">PS: Do not implement your loader in OpenGL's main loop!</span></p>
+<p style="margin-left: 30px;"><br><span style="font-size: 12pt;">The scene file describes&nbsp;</span><span style="color: #ff0000; font-size: 12pt;">the scaling, rotation, and translation&nbsp;</span><span style="font-size: 12pt;">of each model.<br></span><span style="font-size: 12pt;">First, you should scale the object.<br></span><span style="font-size: 12pt;">Next, you should rotate it to the right direction.<br></span><span style="font-size: 12pt;">Finally, you should move each of model to the correct position.<br></span><span style="font-size: 12pt;">Highly recommend to write the camera control and scene manager as c++ class</span></p>
+<p style="margin-left: 30px;"><br><span style="font-size: 12pt;">UI control:</span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="font-size: 12pt;">Keyboard : Move the camera.</span>
+<ul>
+<li><span style="font-size: 12pt;">'w' : zoom in</span></li>
+<li><span style="font-size: 12pt;">'a' : move left (circle the center)</span></li>
+<li><span style="font-size: 12pt;">'s' : zoom out</span></li>
+<li><span style="font-size: 12pt;">'d' : move right (circle the center)</span></li>
+<li><span style="font-size: 12pt;">'1'~'9' : select n-th object</span></li>
+</ul>
+</li>
+<li><span style="font-size: 12pt;">Mouse : Drag the selected object.</span>
+<ul>
+<li><span style="font-size: 12pt;">Right : Increase x</span></li>
+<li><span style="font-size: 12pt;">Left : Decrease x</span></li>
+<li><span style="font-size: 12pt;">Up : Increase y</span></li>
+<li><span style="font-size: 12pt;">Down : Decrease y</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Note</span></strong></h4>
+<hr>
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<p style="margin-left: 30px;"><a href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/74-mesh-loader"><strong><span style="font-size: 12pt;">Mesh Loader</span></strong></a></p>
+<p style="margin-left: 30px;"><a href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/75-viewing-file"><strong><span style="font-size: 12pt;">Viewing File</span></strong></a></p>
+<p style="margin-left: 30px;"><a href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/76-light-file"><strong><span style="font-size: 12pt;">Light File</span></strong></a></p>
+<p style="margin-left: 30px;"><a href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/77-scene-file"><strong><span style="font-size: 12pt;">Scene File<br><br></span></strong></a></p>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Implementation Steps</span></strong></h4>
+<hr>
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<ol>
+<li style="list-style-type: none;"><ol>
+<li><span style="font-size: 12pt;">Write a program to load scene files, viewing and light files.<br></span><span style="font-size: 12pt;">Then use the given mesh loader to load object files and material files.<br></span><span style="font-size: 12pt;">Get the geometry and material datas from files loaded and draw the model on the screen.</span></li>
+<li><span style="font-size: 12pt;">Translate models to correct position. Also implement keyboard and mouse motion call back funcitons to control camera or objects.</span></li>
+</ol></li>
+</ol>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;">Hints of Functions in C:</span><br><span style="font-size: 12pt;">You may need these following function for processing text files.</span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="font-size: 12pt;">fscanf</span></li>
+<li><span style="font-size: 12pt;">fgets</span></li>
+<li><span style="font-size: 12pt;">strtok</span></li>
+<li><span style="font-size: 12pt;">strcmp</span></li>
+<li><span style="font-size: 12pt;">atoi, atof<br><br></span></li>
+</ul>
+</li>
+</ul>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Test Scenes</span></strong></h4>
+<hr>
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;"><a href="http://cggmwww.csie.nctu.edu.tw/images/course/data/icg/2016Fall/HW1-1/TestScene1.zip">Test Scene 1(Click to download!)</a></span></p>
+<p style="margin-left: 30px;">&nbsp;<img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/HW1-1.PNG" alt="HW1-1" width="458" height="456"></p>
+<p style="margin-left: 30px;"><span style="font-size: 12pt;"><a href="http://cggmwww.csie.nctu.edu.tw/images/course/data/icg/2016Fall/HW1-1/TestScene2.zip">Test Scene 2(Click to download!)</a></span></p>
+<p style="margin-left: 30px;"><img src="./CGGM Site - Assignment 1 Phase 1_ Draw Object with Lighting_files/HW1-1.-2.PNG" alt="" width="461" height="459"></p> 
+	
+							 </div>
+
+									</div>
+										</div>
+									</div>
+							</div>
+						</div>
+        					</div></div>
+						</div></div></div></div></div></div></div></div>
+			</div>
+
+			
+		</div>
+
+							<div id="jsn-footer">
+				<div id="jsn-footer-inner1">
+					<div id="jsn-footer-inner">
+						<div id="jsn-footermodules" class="jsn-modulescontainer jsn-modulescontainer1 row-fluid">
+													<div id="jsn-pos-footer" class="span12">
+								<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent">
+<div>
+	<p><span style="color: #c0c0c0;">System Administrator: <span style="color: #00ccff;">Joshua</span>, Web Administrator:<span style="color: #00ccff;"> Joshua</span>, System Build:<span style="color: #00ccff;"> Joshua</span> </span></p></div><div class="clearbreak"></div></div></div></div><div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><div class="footer1">Copyright © 2018 CGGM Site. All Rights Reserved.</div>
+<div class="footer2"><a href="http://www.joomla.org/">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a></div>
+<div class="clearbreak"></div></div></div></div>
+							</div>
+													<div class="clearbreak"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<a id="jsn-gotoplink" href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/73-assignment-1-phase-1-draw-object-with-lighting#top" opacity="0" style="margin-left: -47px; opacity: 1; visibility: visible;">
+			<span>Go to top</span>
+		</a>
+	
+
+
+<div id="sbox-overlay" aria-hidden="true" tabindex="-1" style="z-index: 65555; opacity: 0;"></div><div id="sbox-window" role="dialog" aria-hidden="true" class="shadow" style="z-index: 65557;"><div id="sbox-content" style="opacity: 0;"></div><a id="sbox-btn-close" href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/73-assignment-1-phase-1-draw-object-with-lighting#" role="button" aria-controls="sbox-window"></a></div></body></html>
