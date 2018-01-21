@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\lidia_h\downloads\meshexample\meshexample\main.cpp(28): warning C4129: '.': 無法辨識的字元逸出序列
+c:\users\lidia_h\downloads\meshexample\meshexample\main.cpp(33): warning C4129: '.': 無法辨識的字元逸出序列
+c:\users\lidia_h\downloads\meshexample\meshexample\main.cpp(34): warning C4129: '.': 無法辨識的字元逸出序列
+  MeshExample.vcxproj -> C:\Users\Lidia_H\Downloads\MeshExample\Debug\MeshExample.exe
+  MeshExample.vcxproj -> C:\Users\Lidia_H\Downloads\MeshExample\Debug\MeshExample.pdb (Full PDB)

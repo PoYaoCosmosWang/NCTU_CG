@@ -1,0 +1,26 @@
+/* Set font style for body */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 95%;
+}
+
+/* Set font style for heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#jsn-gotoplink,
+.page-header,
+.subheading-category,
+.componentheading,
+.contentheading {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Set font style for menu */
+body #jsn-menu ul.menu-mainmenu a,
+body #jsn-menu ul.menu-mainmenu li a span {
+	font-family: Verdana, Geneva, sans-serif;
+}

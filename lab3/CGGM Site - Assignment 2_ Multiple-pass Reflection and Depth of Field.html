@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0111)http://cggmwww.csie.nctu.edu.tw/index.php/11-course/83-assignment-2-multiple-pass-reflection-and-depth-of-field -->
+<html lang="en-gb" dir="ltr" slick-uniqueid="3"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	  <!--<base href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/83-assignment-2-multiple-pass-reflection-and-depth-of-field">--><base href=".">
+  
+  <meta name="author" content="Super User">
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>CGGM Site - Assignment 2: Multiple-pass Reflection and Depth of Field</title>
+  <link href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/83-assignment-2-multiple-pass-reflection-and-depth-of-field" rel="canonical">
+  <link href="http://cggmwww.csie.nctu.edu.tw/templates/jsn-boot-pro-customized/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/modal.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/style.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/bootstrap-responsive.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/bootstrap-extended.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/bootstrap-frontend.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/bootstrap-responsive-frontend.min.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/system.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/general.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/template.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/blue.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/custom.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jsn_wide.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jsn_mobile.css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/custom(1).css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/style(1).css" type="text/css">
+  <link rel="stylesheet" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/skitter.styles.css" type="text/css">
+  <style type="text/css">
+	div.jsn-modulecontainer ul.menu-mainmenu ul,
+	div.jsn-modulecontainer ul.menu-mainmenu ul li {
+		width: 200px;
+	}
+	div.jsn-modulecontainer ul.menu-mainmenu ul ul {
+		margin-left: 199px;
+	}
+	#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul ul {
+		margin-right: 199px;
+		margin-left : auto
+	}
+	div.jsn-modulecontainer ul.menu-sidemenu ul,
+	div.jsn-modulecontainer ul.menu-sidemenu ul li {
+		width: 200px;
+	}
+	div.jsn-modulecontainer ul.menu-sidemenu li ul {
+		right: -200px;
+	}
+	body.jsn-direction-rtl div.jsn-modulecontainer ul.menu-sidemenu li ul {
+		left: -200px;
+		right: auto;
+	}
+	div.jsn-modulecontainer ul.menu-sidemenu ul ul {
+		margin-left: 199px;
+	}
+.jsn-themeslider-skitter-dWK4k .label_skitter {filter:alpha(opacity=60);opacity: 0.6;}.jsn-themeslider-skitter-dWK4k .label_skitter p.jsn-themeslider-caption-title {font-family: Verdana;
+font-size: 12px;
+font-weight: bold;
+text-align: left;
+color: #E9E9E9;}.jsn-themeslider-skitter-dWK4k .label_skitter p.jsn-themeslider-caption-description {font-family: Arial;
+font-size: 12px;
+font-weight: normal;
+text-align: left;
+color: #AFAFAF;}.jsn-themeslider-skitter-dWK4k .label_skitter a.jsn-themeslider-caption-link {font-family: Verdana;
+font-size: 13px;
+font-weight: bold;
+text-align: right;
+color: #E06614;}.jsn-themeslider-skitter-dWK4k .label_skitter {bottom: 0;}.jsn-themeslider-skitter-dWK4k .info_slide {top: 15px;}.jsn-themeslider-skitter-dWK4k .info_slide_dots {top: 15px;}.jsn-themeslider-skitter-dWK4k {background: none;}
+  </style>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/mootools-core.js.下載" type="text/javascript" style="color: rgb(0, 0, 0);"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery.min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery-noconflict.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery-migrate.min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/core.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/mootools-more.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/modal.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/bootstrap.min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/caption.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/noconflict.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/utils.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jsn_template.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery.min.js(1).下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jsn_is_conflict.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery.easing.1.3.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery.animate-colors-min.js.下載" type="text/javascript"></script>
+  <script src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/jquery.skitter.js.下載" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+(function($){
+				$('.dropdown-toggle').dropdown();
+				})(jQuery);
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+				JSNTemplate.initTemplate({
+					templatePrefix			: "jsn-boot-pro-customized_",
+					templatePath			: "/templates/jsn-boot-pro-customized",
+					enableRTL				: 0,
+					enableGotopLink			: 1,
+					enableMobile			: 1,
+					enableMobileMenuSticky	: 1,
+					enableDesktopMenuSticky	: 0,
+					responsiveLayout		: ["mobile","wide"]
+				});
+			
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- html5.js and respond.min.js for IE less than 9 -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/plugins/system/jsntplframework/assets/3rd-party/respond/respond.min.js"></script>
+	<![endif]-->
+	</head>
+<body id="jsn-master" class="jsn-textstyle-custom jsn-color-blue jsn-direction-ltr jsn-responsive jsn-mobile jsn-joomla-30  jsn-com-content jsn-view-article jsn-itemid-101 jsn-homepage">
+	<a name="top" id="top"></a>
+		<div id="jsn-page">
+			<div id="jsn-header">
+			<div id="jsn-header-inner1">
+				<div id="jsn-header-inner2">
+					<div id="jsn-header-inner">
+						<div id="jsn-logo" class="pull-left">
+						<a href="http://cggmwww.csie.nctu.edu.tw/index.php" title=""><img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/logo.png" alt="" id="jsn-logo-desktop"></a>						</div>
+						<div id="jsn-headerright" class="pull-right">
+													<div id="jsn-pos-top" class="pull-left">
+								<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><form action="http://cggmwww.csie.nctu.edu.tw/index.php" method="post">
+	<div class="search">
+		<label for="mod-search-searchword"></label><input name="searchword" id="mod-search-searchword" maxlength="20" class="inputbox" type="text" size="20" value="Search..." onblur="if (this.value==&#39;&#39;) this.value=&#39;Search...&#39;;" onfocus="if (this.value==&#39;Search...&#39;) this.value=&#39;&#39;;"><input type="image" value="Search" class="button" src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/saved_resource" onclick="this.form.searchword.focus();">	<input type="hidden" name="task" value="search">
+	<input type="hidden" name="option" value="com_search">
+	<input type="hidden" name="Itemid" value="101">
+	</div>
+</form>
+<div class="clearbreak"></div></div></div></div>
+								<div class="clearbreak"></div>
+							</div>
+												</div>
+						<div class="clearbreak"></div>
+					</div>
+
+											<div id="jsn-menu">
+							<div id="jsn-menu-inner">
+															<div id="jsn-pos-mainmenu">
+									<div class="_menu jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><span class="jsn-menu-toggle">Menu</span>
+<ul class=" nav-pills">
+<li class="current active first"><a class="current" href="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/saved_resource">
+	<span>
+		Home	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/award">
+	<span>
+		Award	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/member">
+	<span>
+		Member	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/research">
+	<span>
+		Research	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/project">
+	<span>
+		Project	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/course">
+	<span>
+		Course	</span>
+</a></li><li><a href="http://cggmwww.csie.nctu.edu.tw/index.php/join-us">
+	<span>
+		Join Us	</span>
+</a></li><li class="last">		<a class="" href="http://cggmwww.cs.nctu.edu.tw/forum" target="_blank">
+			<span>
+			Forum			</span>
+		</a>
+</li></ul><div class="clearbreak"></div></div></div></div>
+								</div>
+																					<div class="clearbreak"></div>
+							</div>
+													</div>
+									</div>
+			</div>
+		</div>
+
+		<div id="jsn-body">
+        			<div id="jsn-promo" class=" row-fluid">
+			                    <div id="jsn-pos-promo" class="span12 order1 ">
+                        <div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div><div><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><!-- JSN IMAGESHOW FREE 4.8.7 - Theme Slider 1.2.0 --><div class="jsn-container"><div class="jsn-gallery"><div id="jsn-themeslider-skitter-dWK4k"><div style="width: 100%; height: 636.561px;" class="box_skitter jsn-themeslider-gallery jsn-themeslider-skitter-dWK4k">
+<ul style="display: none;"><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/00.jpg" alt="Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling" style="height: 636.561px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling</p><p class="jsn-themeslider-caption-description">Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling<br>EuroGraphics 2008<br></p></div>
+					 </li><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/01.jpg" alt="Volume Based Mesh Segmentation" style="height: 636.561px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Volume Based Mesh Segmentation</p><p class="jsn-themeslider-caption-description">Volume Based Mesh Segmentation<br>Jouranl of Information Science and Engineering, 2012</p></div>
+					 </li><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/02.jpg" alt="Intractive Lighting Design with Hierarchical Light Representation" style="height: 636.561px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Intractive Lighting Design with Hierarchical Light Representation</p><p class="jsn-themeslider-caption-description">Intractive Lighting Design with Hierarchical Light Representation<br>Eurographics Symposium on Rendering, 2013</p></div>
+					 </li><li>
+			   			<a href="javascript:void(0);">
+			   				<img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/03.jpg" alt="Physically-based Cosmetic Rendering" style="height: 636.561px;">
+			   			</a>
+			   			<div class="label_text"><p class="jsn-themeslider-caption-title">Physically-based Cosmetic Rendering</p><p class="jsn-themeslider-caption-description">Physically-based Cosmetic Rendering<br>Computer Animation and Virtual Worlds volume 24, 2013</p></div>
+					 </li></ul><input type="hidden" class="cache_skitter_index" value=""><span class="prev_button" style="display: block; opacity: 0.169932;">prev</span><span class="next_button" style="display: block; opacity: 0.169932;">next</span><span class="info_slide" style="left: auto; right: 15px; display: block; opacity: 0.169932;"><span class="image_number image_number_select" rel="0" id="image_n_1_0" style="background-color: rgb(204, 51, 51); color: rgb(255, 255, 255);">1</span> <span class="image_number" rel="1" id="image_n_2_0" style="background-color: rgb(51, 51, 51); color: rgb(255, 255, 255);">2</span> <span class="image_number" rel="2" id="image_n_3_0" style="background-color: rgb(51, 51, 51); color: rgb(255, 255, 255);">3</span> <span class="image_number" rel="3" id="image_n_4_0" style="background-color: rgb(51, 51, 51); color: rgb(255, 255, 255);">4</span> </span><div class="container_skitter" style="width: 1170px; height: 636.561px;"><div class="image"><a href="javascript:void(0);" target="_self"><img class="image_main" src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/00.jpg" style="width: 1170px; display: inline; height: 636.561px;"></a><div class="label_skitter" style="width: 1170px; display: block;"><p class="jsn-themeslider-caption-title">Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling</p><p class="jsn-themeslider-caption-description">Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling<br>EuroGraphics 2008<br></p></div></div></div><span class="play_pause_button" style="left: 564px; opacity: 0; display: block;">pause</span></div>
+</div><script type="text/javascript">
+						jsnThemeSliderjQuery(function() {
+						jsnThemeSliderjQuery(document).ready(function(){
+							
+							var oldHTML = jsnThemeSliderjQuery('#jsn-themeslider-skitter-dWK4k').html();
+							var options = {"animation":"random","navigation":true,"navShowOnMouseOver":true,"dots":false,"numbers":true,"numbers_align":"right","caption_title_css":"font-family: Verdana;\r\nfont-size: 12px;\r\nfont-weight: bold;\r\ntext-align: left;\r\ncolor: #E9E9E9;","caption_description_css":"font-family: Arial;\r\nfont-size: 12px;\r\nfont-weight: normal;\r\ntext-align: left;\r\ncolor: #AFAFAF;","caption_link_css":"font-family: Verdana;\r\nfont-size: 13px;\r\nfont-weight: bold;\r\ntext-align: right;\r\ncolor: #E06614;","caption_position":"bottom","caption_caption_opacity":"filter:alpha(opacity=60);opacity: 0.6;","interval":20000,"controls":true,"controlShowOnMouseOver":true,"stop_over":true,"auto_play":true,"caption_title_show":true,"caption_description_show":true,"caption_link_show":false,"label":true,"animateNumberActive":{"backgroundColor":"#cc3333","color":"#fff"},"click_action":"no_action","open_link_in":"current_browser","img_transparent_background":true,"skitter_class_id":"jsn-themeslider-skitter-dWK4k"};
+							options.base_height = 500;
+							jsnThemeSliderjQuery('.jsn-themeslider-skitter-dWK4k').skitter(options);
+							jsnThemeSliderjQuery('.jsn-themeslider-skitter-dWK4k .image_main').css("max-width", "");
+							var jsn_dWK4k = jsnThemeSliderjQuery(window).width();
+							var cacheResize;
+							jsnThemeSliderjQuery(window).resize(function (e) {
+								if (jsn_dWK4k != jsnThemeSliderjQuery(window).width())
+								{
+									clearTimeout(cacheResize);
+									cacheResize = "";
+									var oldCacheIndex = jsnThemeSliderjQuery('#jsn-themeslider-skitter-dWK4k .cache_skitter_index').attr('value');
+									jsnThemeSliderjQuery('#jsn-themeslider-skitter-dWK4k').html(oldHTML);
+									
+									jsnThemeSliderjQuery('#jsn-themeslider-skitter-dWK4k .cache_skitter_index').attr('value', oldCacheIndex);
+									var options = {"animation":"random","navigation":true,"navShowOnMouseOver":true,"dots":false,"numbers":true,"numbers_align":"right","caption_title_css":"font-family: Verdana;\r\nfont-size: 12px;\r\nfont-weight: bold;\r\ntext-align: left;\r\ncolor: #E9E9E9;","caption_description_css":"font-family: Arial;\r\nfont-size: 12px;\r\nfont-weight: normal;\r\ntext-align: left;\r\ncolor: #AFAFAF;","caption_link_css":"font-family: Verdana;\r\nfont-size: 13px;\r\nfont-weight: bold;\r\ntext-align: right;\r\ncolor: #E06614;","caption_position":"bottom","caption_caption_opacity":"filter:alpha(opacity=60);opacity: 0.6;","interval":20000,"controls":true,"controlShowOnMouseOver":true,"stop_over":true,"auto_play":true,"caption_title_show":true,"caption_description_show":true,"caption_link_show":false,"label":true,"animateNumberActive":{"backgroundColor":"#cc3333","color":"#fff"},"click_action":"no_action","open_link_in":"current_browser","img_transparent_background":true,"skitter_class_id":"jsn-themeslider-skitter-dWK4k"};
+									options.base_height = 500;
+									cacheResize = setTimeout(function () {
+										jsnThemeSliderjQuery('.jsn-themeslider-skitter-dWK4k').skitter(options);
+										jsnThemeSliderjQuery('.jsn-themeslider-skitter-dWK4k .image_main').css("max-width", "");
+									}, 500);
+									jsn_dWK4k = jsnThemeSliderjQuery(window).width();
+								}
+							});
+						})});
+				</script><div class="jsn-themeslider-seocontent">
+<div><p>Publication</p><p>Our Publications</p><ul><li><p>Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling</p><p>Real-time Translucent Rendering Using GPU-based Texture Space Importance Sampling<br>EuroGraphics 2008<br></p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/00.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/00.jpg</a></p></li><li><p>Volume Based Mesh Segmentation</p><p>Volume Based Mesh Segmentation<br>Jouranl of Information Science and Engineering, 2012</p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/01.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/01.jpg</a></p></li><li><p>Intractive Lighting Design with Hierarchical Light Representation</p><p>Intractive Lighting Design with Hierarchical Light Representation<br>Eurographics Symposium on Rendering, 2013</p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/02.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/02.jpg</a></p></li><li><p>Physically-based Cosmetic Rendering</p><p>Physically-based Cosmetic Rendering<br>Computer Animation and Virtual Worlds volume 24, 2013</p><p><a href="http://graphics.cs.nctu.edu.tw/images/slideshow/publications/03.jpg">http://graphics.cs.nctu.edu.tw/images/slideshow/publications/03.jpg</a></p></li></ul></div></div>
+</div></div><div class="clearbreak"></div></div></div></div></div></div>
+                    </div>
+								<div class="clearbreak"></div>
+				</div>
+							<div id="jsn-content" class="">
+				<div id="jsn-content_inner"><div id="jsn-content_inner1"><div id="jsn-content_inner2"><div id="jsn-content_inner3"><div id="jsn-content_inner4"><div id="jsn-content_inner5"><div id="jsn-content_inner6"><div id="jsn-content_inner7" class="row-fluid">
+							<div id="jsn-maincontent" class="span12 order1 "><div id="jsn-maincontent_inner" class="row-fluid">
+								<div id="jsn-centercol" class="span12 order1 ">
+							<div id="jsn-centercol_inner">
+								<div id="jsn-centercol_inner1">
+										<div id="jsn-mainbody-content" class=" jsn-hasmainbody">
+											<div id="jsn-mainbody">
+										<div id="system-message-container">
+	</div>
+
+										<div class="item-page">
+	
+		<div class="page-header">
+		<h2>
+															<a href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/83-assignment-2-multiple-pass-reflection-and-depth-of-field"> Assignment 2: Multiple-pass Reflection and Depth of Field</a>
+									</h2>
+				</div>
+		<div class="jsn-article-toolbar">
+							<div class="clearfix"></div>
+	</div>
+		
+								<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Program Description</span></strong></h4>
+<hr style="font-size: 12.16px;">
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;">Implement effects that are similar to windows, inlcuding&nbsp;Multiple-pass Reflection and Depth of Field.</span><br><span style="font-size: 12pt;">You also need to implement keyboard functions to control camera and adjust some parameters.</span></p>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Due Day</span></strong></h4>
+<hr style="font-size: 12.16px;">
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<p style="font-size: 12.16px; margin-left: 30px;"><strong><span style="font-size: 12pt; color: #ff0000;">2017/12/18 23:59</span></strong><br><span style="font-size: 12pt;">Please upload your entire files as a zip file to e3.</span></p>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;">Please upload entire solution, project, source code, and objects!</span><br><span style="font-size: 12pt;">And please use your school id as your file name.</span><br><span style="font-size: 12pt; color: #ff0000;">For example: 9655862V1.zip</span></p>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Requirement</span></strong></h4>
+<hr style="font-size: 12.16px;">
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;">Use stencil buffer to render Reflection scene in mirror's area.<br>Use accumulation buffer to accumulate effects of reflection and refraction.<br><span>Use back-face/front-face culling: glEnable(GL_CULL_FACE).</span></span></p>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;">UI control:</span></p>
+<ul style="font-size: 12.16px;">
+<li style="list-style-type: none;">
+<ul>
+<li><span style="font-size: 12pt;">Keyboard : Move the camera&nbsp;<span>and adjust parameters</span>.</span>
+<ul>
+<li><span style="font-size: 12pt;">'w' : zoom in</span></li>
+<li><span style="font-size: 12pt;">'a' : move left (circle the center)</span></li>
+<li><span style="font-size: 12pt;">'s' : zoom out</span></li>
+<li><span style="font-size: 12pt;">'d' : move right (circle the center)</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;"><span>Aperture&nbsp;is range&nbsp;<span style="font-size: 16px;">0.1</span>&nbsp;to <span style="font-size: 16px;">0.2</span>.</span><br>Remeber to check your loaded light is point light.</span><br style="font-size: 12.16px;"><span style="font-size: 12pt;">Remeber to clear your buffers according your usage.</span></p>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Implementation Steps</span></strong></h4>
+<hr style="font-size: 12.16px;">
+<h4 style="font-size: 12.16px;">&nbsp;</h4>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt; color: #0000ff;">Step 1: Set stencil buffer</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="font-size: 12pt;">Set your mirror's area with stencil buffer.</span></p>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt; color: #0000ff;">Step 2: Reflection</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="font-size: 12pt;">Filp your scene or camera along the mirror to form a reflected scene or camera.<br></span><span style="font-size: 12pt;">If you flip camera, remenber your rendering image is left and right reversed.<br>You may need to use glFrontFace(GL_CW).</span><br><span style="font-size: 16px;">Draw your scene to render the effect of reflection.</span><br><span style="font-size: 12pt; color: #ff0000;">PS: Front mirror's center position is (-20, 20, 0) and is parallel to yz-plane.</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="color: #ff0000; font-size: 16px;">PS: Back mirror's center position is (20, 20, 0) and is parallel to yz-plane.</span></p>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt; color: #0000ff;">Step 3: Depth of Field</span></p>
+<p style="font-size: 12.16px; margin-left: 30px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size: 12pt;">Use about N ( N &gt;= 8 ) passes, moving the eyes' positions to different direction at every pass to create the effect of blurring.&nbsp;</span></p>
+<p style="color: #0000ff; font-size: 12.16px; margin-left: 30px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="font-size: 12pt;"><strong>( the distance of the jittering should be about 0.2~0.3 )</strong></span></p>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp;Saving the result of each pass into accumulation buffer, and output the result back to the color buffer when you're done.</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="font-size: 12pt;"><span>&nbsp;<span style="color: #ff0000; font-size: 16px;">PS: Defined Keyboard to change (vatx,vaty,vatz) </span></span></span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="font-size: 12pt;"><span><span style="color: #ff0000; font-size: 16px;">Switch to focus on the different target</span></span></span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="color: #ff0000; font-size: 16px;">&nbsp; &nbsp; Press button <strong>'1'&nbsp;</strong> : Look at target(-10,12,0)</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="color: #ff0000; font-size: 16px;">&nbsp; &nbsp; <span style="color: #ff0000; font-size: 16px;">Press button&nbsp;</span><strong style="color: #ff0000; font-size: 16px;">'2'&nbsp;</strong><span style="color: #ff0000; font-size: 16px;">&nbsp;:&nbsp;</span>Look at target(-50,12,0)</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;"><span style="color: #ff0000; font-size: 16px;">&nbsp; &nbsp; Press button <strong>'3'</strong> : Look at target(-400,12,0)</span></p>
+<p style="font-size: 12.16px; margin-left: 60px;">&nbsp;</p>
+<p style="font-size: 12.16px; margin-left: 30px;"><span style="font-size: 12pt;">You may use these functions in OpenGL:</span></p>
+<ul style="font-size: 12.16px;">
+<li style="list-style-type: none;">
+<ul>
+<li><span style="font-size: 12pt;">glColorMask</span></li>
+<li><span style="font-size: 12pt;">glDepthMask</span></li>
+<li><span style="font-size: 12pt;">glFrontFace</span></li>
+<li><span style="font-size: 12pt;">glCullFace</span></li>
+</ul>
+</li>
+</ul>
+<h4 style="font-size: 12.16px;"><span style="font-size: 14pt;">&nbsp; &nbsp; &nbsp;&nbsp;</span></h4>
+<h4 style="font-size: 12.16px;"><span style="font-size: 14pt;">&nbsp; &nbsp; &nbsp; &nbsp;<a href="http://cggmwww.csie.nctu.edu.tw/images/Assignment-2.pptx">Assignment-2 PPT</a><a href="http://cggmwww.csie.nctu.edu.tw/images/Assignment-2.pptx"></a><br></span></h4>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+<h4 style="font-size: 12.16px;"><strong><span style="font-size: 18pt;">Test Scene</span></strong></h4>
+<hr style="font-size: 12.16px;">
+<h4 style="font-size: 12.16px;"><span style="font-size: 14pt;"><a href="http://cggmwww.csie.nctu.edu.tw/images/course/data/icg/2017Fall/HW2/Assignment2_TestScene.zip">Cornell box (Click to download!)&nbsp;</a></span></h4>
+<p>&nbsp;</p>
+<p><img style="font-size: 12.16px; float: left;" src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/Assignment2_01.PNG" alt="" width="797" height="422"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong>Picture 1 : Focus on dice(-10,12,0)</strong></span></p>
+<p>&nbsp;</p>
+<p><img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/Assignment2_02.PNG" alt="" width="799" height="424"></p>
+<p><strong><span style="font-size: 14pt;">Picture 2: Focus on First Reflection in the mirror(-50,12,0)</span></strong></p>
+<p>&nbsp;</p>
+<p><img src="./CGGM Site - Assignment 2_ Multiple-pass Reflection and Depth of Field_files/Assignment2_3.PNG" alt="" width="801" height="597"></p>
+<p><strong><span style="font-size: 14pt;">Picture 3: Focus on Second pass Reflection in the mirror</span></strong></p>
+<p>&nbsp;</p> 
+	
+							 </div>
+
+									</div>
+										</div>
+									</div>
+							</div>
+						</div>
+        					</div></div>
+						</div></div></div></div></div></div></div></div>
+			</div>
+
+			
+		</div>
+
+							<div id="jsn-footer">
+				<div id="jsn-footer-inner1">
+					<div id="jsn-footer-inner">
+						<div id="jsn-footermodules" class="jsn-modulescontainer jsn-modulescontainer1 row-fluid">
+													<div id="jsn-pos-footer" class="span12">
+								<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent">
+<div>
+	<p><span style="color: #c0c0c0;">System Administrator: <span style="color: #00ccff;">Joshua</span>, Web Administrator:<span style="color: #00ccff;"> Joshua</span>, System Build:<span style="color: #00ccff;"> Joshua</span> </span></p></div><div class="clearbreak"></div></div></div></div><div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-module-badge"></div><div class="jsn-module-extra-icon"></div><div class="jsn-modulecontent"><div class="footer1">Copyright © 2018 CGGM Site. All Rights Reserved.</div>
+<div class="footer2"><a href="http://www.joomla.org/">Joomla!</a> is Free Software released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License.</a></div>
+<div class="clearbreak"></div></div></div></div>
+							</div>
+													<div class="clearbreak"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<a id="jsn-gotoplink" href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/83-assignment-2-multiple-pass-reflection-and-depth-of-field#top" opacity="0" style="margin-left: -47px; opacity: 0; visibility: hidden;">
+			<span>Go to top</span>
+		</a>
+	
+
+
+<div id="sbox-overlay" aria-hidden="true" tabindex="-1" style="z-index: 65555; opacity: 0;"></div><div id="sbox-window" role="dialog" aria-hidden="true" class="shadow" style="z-index: 65557;"><div id="sbox-content" style="opacity: 0;"></div><a id="sbox-btn-close" href="http://cggmwww.csie.nctu.edu.tw/index.php/11-course/83-assignment-2-multiple-pass-reflection-and-depth-of-field#" role="button" aria-controls="sbox-window"></a></div></body></html>
