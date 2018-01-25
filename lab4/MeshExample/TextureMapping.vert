@@ -6,8 +6,13 @@ out Vertex{
    	vec2 _texcoord;
 	vec4 v;
 }veterx;
-out vec4 center;
+
+/*This is for the one whose GPU is as poor as mine.
+If you can use gl_ProjectionMatrix in the geometry shader, you can use it instead.
+Then you should delete the next two line.*/
 out mat4 ProjectionMatrix;
+out vec4 center;
+
 
 uniform vec4 centroid1;
 

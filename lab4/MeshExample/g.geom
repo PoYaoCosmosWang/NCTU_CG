@@ -16,6 +16,9 @@ in Vertex{
 	vec2 _texcoord;
 	vec4 v;
 }vertex[];
+
+/* This is for those GPU is as poor as mine.
+Since I cannot use gl_ProjectionMatrix in the geometry shader, I pass it from vertex shader.*/
 in mat4 ProjectionMatrix[];
 in  vec4 center[];
 out vec3 vertexEyeSpace;
